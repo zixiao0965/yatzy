@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Index.css">
+    <title>Yatzy Game</title>
+</head>
+<body>
+    <h1 align="center">Yatzy Game</h1>
+    <div id="DiceDiv">
+        <table id="DiceTable">
+            <!-- <tr>
+                <th id="Dice1"><img id="Dice1P" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice2"><img id="Dice2P" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice3"><img id="Dice3P" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice4"><img id="Dice4P" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice5"><img id="Dice5P" src="Img/Query.jpg" alt=""></th>
+                <th id="Roll"><button id="RollButton">ROLL</button></th>
+            </tr> -->
+            <tr>
+                <th id="Dice1"><img id="Dice1P" class="dice" data-locked="false" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice2"><img id="Dice2P" class="dice" data-locked="false" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice3"><img id="Dice3P" class="dice" data-locked="false" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice4"><img id="Dice4P" class="dice" data-locked="false" src="Img/Query.jpg" alt=""></th>
+                <th id="Dice5"><img id="Dice5P" class="dice" data-locked="false" src="Img/Query.jpg" alt=""></th>
+                <th id="Roll"><button id="RollButton">ROLL</button></th>
+                <th id="Terminate"><button id="TerminateButton">TERMINATE GAME</button></th>
+            </tr>
+            
+        </table>
+    </div>
+    <br><br><hr>
+    <div id="MarkDiv">
+        <table id="MarkTable">
+            <tr><th id="OnesMark">ONES : </th></tr>
+            <tr><th id="TowsMark">TOWS : </th></tr>
+            <tr><th id="ThreesMark">THREES : </th></tr>
+            <tr><th id="FoursMark">FOURS : </th></tr>
+            <tr><th id="FivesMark">FIVES : </th></tr>
+            <tr><th id="SixesMark">SIXES : </th></tr>
+            <tr><th id="upperSection">TOTAL : </th></tr>
+            <tr><th id="upperBonus">BONUS : </th></tr>
+            <tr><th id="TOAKMARK">3 OF A KIND : </th></tr>
+            <tr><th id="FOAKMARK">4 OF A KIND : </th></tr>
+            <tr><th id="FULLMARK">Yatzy : </th></tr>
+        </table>
+    </div>
+
+    <script src="Jquery/jquery-3.7.1.min.js"></script>
+    <script src="Logical.js"></script>
+</body>
+</html>

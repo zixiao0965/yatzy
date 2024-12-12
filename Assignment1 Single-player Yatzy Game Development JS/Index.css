@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f7f7f7, #d7e9f7);
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dice Section */
+#DiceDiv {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#DiceTable {
+    width: 100%;
+    margin: auto;
+}
+
+#DiceTable th {
+    padding: 10px;
+}
+
+.dice {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dice:hover {
+    transform: scale(1.1);
+}
+
+.locked {
+    opacity: 0.6;
+    cursor: not-allowed;
+    border: 2px solid #e74c3c;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    font-size: 1em;
+    color: white;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Scoring Table */
+#MarkDiv {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 400px;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#MarkTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#MarkTable th {
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+#MarkTable th:last-child {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
